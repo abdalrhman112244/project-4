@@ -1,0 +1,356 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+    height: 80px;
+    background: none !important;
+}
+
+.navbar-brand {
+    padding-right: 40%;
+}
+
+.logo {
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.icon-logo {
+    width: 37px;
+    height: 37px;
+}
+
+.collapse .btn,
+#our-shop .p-h1-btn .btn,
+#most-played .p-h1-btn .btn,
+.the-end .box1 .btn {
+    background-color: #ec6174;
+    border-radius: 25px;
+}
+
+/* end nav */
+/* start hero */
+header {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right,
+            #0271f7,
+            #4f99d5);
+    color: white;
+    border-radius: 0% 0% 18% 18%;
+}
+
+.hero {
+    padding-bottom: 100px !important;
+
+}
+
+.the-second {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-cercil {
+    position: relative;
+}
+
+.img-cercil .cercil1 {
+    position: absolute;
+    top: 2%;
+    right: 10%;
+    background-color: #0271f7;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+.img-cercil .cercil1 p,
+.img-cercil .cercil2 p {
+    margin: 0;
+    font-weight: bold;
+}
+
+.img-cercil .cercil2 {
+    position: absolute;
+    bottom: -20px;
+    left: -27px;
+    width: 60px;
+    height: 60px;
+    background-color: #ec6174;
+    border-radius: 60px;
+    padding: 14px;
+}
+
+.img-cercil img {
+    border-radius: 15px;
+}
+
+.the-first input {
+    position: relative;
+    display: inline-block;
+    font-size: 20px;
+}
+
+input[type="text"] {
+    background: #fff;
+    border: none;
+    width: 250px;
+    height: 40px;
+    outline: none;
+    padding: 0 25px;
+    border-radius: 25px 0 0 25px;
+}
+
+input[type="submit"] {
+    position: relative;
+    left: -35px;
+    border-radius: 25px;
+    width: 160px;
+    height: 41px;
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: #ec6174;
+}
+
+/* end header */
+/* start home */
+
+#home .row .card .cercil1 {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: #0271f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#home .row .card {
+    position: relative;
+    top: -80px;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0px 0px 11px 5px #808080bf;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-cercil1 {
+    width: 50%;
+    height: 50%;
+    color: white;
+}
+
+.icon-shop {
+    width: 30px;
+    height: 30px;
+    color: white;
+    background: #ec6174;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+#our-shop .row,
+#most-played .row,
+#Top-categories .row {
+    justify-content: center;
+}
+
+#our-shop .container .row .card {
+    border: none;
+    background: #cdc1c1;
+    border-radius: 20px;
+    padding-left: 0px;
+    position: relative;
+}
+
+#our-shop .container .row .card img {
+    border-radius: 10px;
+    width: 17rem;
+}
+
+.card-body {
+    justify-content: space-between;
+}
+
+.card .price {
+    background: #0271f7;
+    padding: 5px;
+    color: white;
+    font-weight: bold;
+    border-radius: 50%;
+    width: max-content;
+    position: absolute;
+    top: 10px;
+    left: 220px;
+}
+
+#our-shop .container .p-h1-btn,
+#most-played .container .p-h1-btn {
+    justify-content: space-between;
+    align-items: center;
+}
+
+#our-shop .p-h1-btn .btn,
+#most-played .p-h1-btn .btn {
+    margin-right: 120px;
+}
+
+.p-h1 p {
+    color: red;
+    font-size: 20px;
+}
+
+#most-played {
+    background-color: #ebebeb;
+    border-radius: 80px;
+}
+
+#most-played .container .row .card {
+    padding-left: 0px;
+    border: none;
+    background: white;
+    border-radius: 15px 15px 40px 40px;
+    position: relative;
+}
+
+#most-played .container .row .card img {
+    width: 11rem;
+    border-radius: 20px;
+}
+
+#most-played .container .row .card .btn {
+    background: #ec6174;
+    border-radius: 50%;
+    width: max-content;
+    position: absolute;
+    bottom: -20px;
+    left: 50px;
+}
+
+#Top-categories .container .row .card {
+    border: none;
+    background: #0271f7;
+    padding-left: 0px;
+    border-radius: 30px;
+}
+
+#Top-categories .container .row .card img {
+    width: 13.5rem;
+    border-radius: 30px;
+}
+
+#Top-categories .container .row .card .card-body h4 {
+    color: white;
+}
+
+.the-end .box1 {
+    background: #ebebeb;
+    height: max-content;
+    width: 700px;
+    border-radius: 30px;
+    position: relative;
+    top: 320px;
+    right: -150px;
+    padding: 20px;
+}
+
+.the-end .box2 {
+    background: #ebebeb;
+    height: max-content;
+    width: 700px;
+    border-radius: 30px;
+    position: relative;
+    top: 330px;
+    left: -130px;
+    padding: 20px;
+}
+
+.the-end img {
+    width: 500px;
+    position: relative;
+    z-index: -9999;
+}
+
+footer {
+    width: 100%;
+    background: linear-gradient(to right,
+            #0271f7,
+            #4f99d5);
+    color: white;
+    border-radius: 50% 50% 0% 0%;
+    padding: 50px 0px;
+}
+
+@media screen and (max-width:1000px) {
+    #home .row .card {
+        left: 50%;
+        transform: translate(-50%);
+    }
+
+    .hero {
+        margin-top: 160px !important;
+    }
+
+    .img-cercil img {
+        width: 300px;
+    }
+
+    input[type="text"] {
+        width: 200px;
+    }
+
+    input[type="submit"] {
+        width: 100px;
+    }
+
+    .box2 input[type="text"] {
+        border-radius: 25px;
+        margin-bottom: 5px;
+    }
+
+    .box2 input[type="submit"] {
+        left: 5px;
+    }
+
+    .the-end img {
+        width: 300px;
+        left: 105px;
+    }
+
+    .the-end {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .the-end .box1,
+    .the-end .box2 {
+        width: 250px;
+        height: max-content;
+    }
+
+    .the-end .box2 {
+        top: -110px;
+        left: 256px;
+        font-size: 10px;
+    }
+
+    .the-end .box1 {
+        right: 4px;
+        top: 758px;
+        font-size: 10px;
+    }
+}
